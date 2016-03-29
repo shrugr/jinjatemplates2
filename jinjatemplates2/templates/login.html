@@ -1,0 +1,9 @@
+{%extends "templates/base.html" %}
+{% block content %}
+<p>{{msg}}</p>
+		<form method="post" action="login.html">
+<p>User Name: <input type="text" name="un"></p>
+<p>Password:<input type="password" name="p"></p>
+<p><input type="submit"></p>
+</form>
+	{% endblock %}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Colleen van Lent - {{title}}</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<link rel="stylesheet" href="static/customstyling.css">
+
+
+</head>
+<body>
+	<header>
+		<h1><img src = "static/Red_Triangle.svg.png" id="mainlogo" alt = "shruti's logo"/>Shruti Reddy</h1>
+		<h2>{{subheading}}</h2>
+		<nav>
+		    <ul class="nav nav-pills nav-justified">
+			<li><a href = "index.html">{{homenav}}</a></li>
+			<li><a href = "food.html">{{foodnav}}</a></li>
+			<li><a href = "family.html">{{famnav}}</a></li>
+			<li><a href = "login.html">{{loginnav}}</a></li>
+			</ul>
+		</nav>
+	</header>
+	{% block content %}
+	I should never see this content.  It should be replaced.
+	{% endblock %}
+	<footer>
+		<p>Copyright &copy; Shruti Reddy from the <a href="https://www.si.umich.edu/">School of Information</a></p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
