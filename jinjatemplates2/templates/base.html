@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Colleen van Lent - {{title}}</title>
+	<title>Shruti Reddy - {{title}}</title>
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 <!-- Latest compiled and minified JavaScript -->
 <link rel="stylesheet" href="static/customstyling.css">
-
 
 </head>
 <body>
@@ -22,7 +23,7 @@
 		    <ul class="nav nav-pills nav-justified">
 			<li><a href = "index.html">{{homenav}}</a></li>
 			<li><a href = "food.html">{{foodnav}}</a></li>
-			<li><a href = "family.html">{{famnav}}</a></li>
+			<li><a href = "reviews.html">{{revnav}}</a></li>
 			<li><a href = "login.html">{{loginnav}}</a></li>
 			</ul>
 		</nav>
@@ -30,9 +31,20 @@
 	{% block content %}
 	I should never see this content.  It should be replaced.
 	{% endblock %}
-	<footer>
-		<p>Copyright &copy; Shruti Reddy from the <a href="https://www.si.umich.edu/">School of Information</a></p>
-	</footer>
+
+	<footer class="footer">
+      <div class="container">
+      <div class="row">
+        <i class="fa fa-twitter col-lg-1 col-xs-12"></i>
+        <i class="fa fa-instagram col-lg-1 col-xs-12"></i>
+		<i class="fa fa-github col-lg-1 col-xs-12"></i>
+		<i class="fa fa-envelope col-lg-1 col-xs-12"></i>
+		<span>Copyright &copy; Shruti Reddy from the <a href="https://www.si.umich.edu/">School of Information</a></span>
+      </div>
+      </div>
+    </footer>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
